@@ -63,7 +63,7 @@ function SendLog(id, crds, identifier, reason)
                 },
             },
             ["footer"]=  {
-                ["icon_url"] = "https://forum.fivem.net/uploads/default/original/4X/7/5/e/75ef9fcabc1abea8fce0ebd0236a4132710fcb2e.png",
+                ["icon_url"] = icon_url,
                 ["text"]= "Sent: " ..date.."",
             },
         }
