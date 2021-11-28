@@ -1,5 +1,5 @@
-local webhook = ""
-
+local webhook = Config.webhook
+local icon_url = Config.icon_url
 
 
 RegisterCommand("combat", function(source, args, rawcmd)
